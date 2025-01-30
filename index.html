@@ -5,112 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Norwins website</title>
     <link rel="icon" type="image/png" href="img/finger.png">
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body{
-        margin: 0;
-        background-color: #3737377a;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .background{
-        height: 100vh;
-        width: 100%;
-        object-fit: cover;
-        pointer-events: none;
-    }
-    .Container{
-        position: absolute;
-        top: 16px;
-        right: 32px;
-        left: 32px;
-        font-size: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        }
-    .Links {
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        margin-left: 16px;
-        transition: 2s;
-    }
-    .Links:hover {
-        font-size: 30px;
-        text-decoration: underline;
-        color: #be0606;
-    }
-    .headline{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        position: absolute;
-        left: 20px;
-        top: 250px;
-        font-size: 30px;
-        text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-    }
-    .discord{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white; 
-        position: absolute;
-        left: 50px;
-
-        top: 320px;
-
-        font-size: 30px;
-        font-weight: 500;
-        text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-        text-decoration: none;
-    }
-    .discord:hover{
-        text-decoration: underline;
-        color: #727272;
-    }
-    .subclass{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        position: absolute;
-        font-size: 35px;
-        top: 350px;
-        left: 20px;
-        font-weight: 500;
-        text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-    }
-    .dnd{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 30px;
-        font-weight: 500;
-        text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-        text-decoration: none;
-        position: absolute;
-        top: 420px;
-        left: 50px;
-    }
-    .todos{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 30px;
-        font-weight: 500;
-        text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-        text-decoration: none;
-        position: absolute;
-        top: 470px;
-        left: 50px;
-    }
-    .todos:hover{
-        text-decoration: underline;
-        color: #727272;
-    }
-    .dnd:hover{
-        text-decoration: underline;
-        color: #727272;
-    }
-</style>
 <body>
     <div class="Container">
-        <img src="img/Logo.png">
+        <img class="logo" src="img/Logo.png">
     
-        <div>
+        <div class="navigation">
         <a class="Links" href="index.html"> Home</a>
         <a class="Links" href="Impressum.html"> Impressum </a>
         <a class="Links" href="Kontakt.html"> Kontakt </a>
