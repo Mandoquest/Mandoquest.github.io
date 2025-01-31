@@ -43,6 +43,6 @@ body{
         display: none;
     }
     .Container{
-        align-items: center;
+        justify-content: center;
     }
 }
