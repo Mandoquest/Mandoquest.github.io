@@ -33,7 +33,6 @@ body{
     top: calc(100vh*0.3);
     display: flex;
     flex-direction: column;
-    background-color: blue;
     text-wrap: nonewrap;
     justify-content: center;
     align-items: flex-start;
