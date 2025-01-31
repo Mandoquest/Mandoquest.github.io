@@ -23,78 +23,21 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-left: 16px;
-    transition: 0.2s;
 }
 .Links:hover {
-    font-size: 30px;
     text-decoration: underline;
     color: #727272
 }
-.headline{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+.test{
     position: absolute;
-    left: 20px;
-    top: 250px;
-    font-size: 30px;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-}
-.discord{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white; 
-    position: absolute;
-    left: 50px;
-
-    top: 320px;
-
-    font-size: 30px;
-    font-weight: 500;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-}
-.discord:hover{
-    text-decoration: underline;
-    color: #727272;
-}
-.subclass{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    position: absolute;
-    font-size: 35px;
-    top: 350px;
-    left: 20px;
-    font-weight: 500;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-}
-.dnd{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    position: absolute;
-    top: 420px;
-    left: 50px;
-}
-.todos{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    position: absolute;
-    top: 470px;
-    left: 50px;
-}
-.todos:hover{
-    text-decoration: underline;
-    color: #727272;
-}
-.dnd:hover{
-    text-decoration: underline;
-    color: #727272;
+    top: calc(100vh*0.3);
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    text-wrap: nonewrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 @media (max-width: 640px) {
     .navigation{
