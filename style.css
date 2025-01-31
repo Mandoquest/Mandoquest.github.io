@@ -43,4 +43,7 @@ body{
     .navigation{
         display: none;
     }
+    .Container{
+        align-items: center;
+    }
 }
