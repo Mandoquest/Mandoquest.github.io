@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: space-between;
     }
-.links {
+.Links {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-left: 16px;
@@ -31,15 +31,29 @@ body{
 .logo{
     pointer-events: none;
 }
-.test{
+.Flexbox{
     position: absolute;
-    top: calc(100vh*0.3);
+    top: 40%;
     display: flex;
     flex-direction: column;
     text-wrap: nonewrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
+}
+.unterseiten{
+    color: white;
+    text-decoration: none;
+    font-size: 225%;
+    transition: 0.2s;
+}
+.test{
+    margin-top: 10%;
+}
+.Flexbox:hover .unterseiten{
+    font-size: 250%;
+}
+.Flexbox:hover .unterseiten:hover{
+    text-decoration: underline;
+    color: #727272;
+    font-size: 275%;
 }
 @media (max-width: 640px) {
     .navigation{
