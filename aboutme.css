@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background-color: #3737377a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headline{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
