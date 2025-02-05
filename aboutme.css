@@ -5,6 +5,6 @@ body{
 }
 .headline{
     position: absolute;
-    left: 50%;
+    left: 50vw;
     top: 5%;
 }
