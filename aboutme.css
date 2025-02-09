@@ -3,8 +3,30 @@ body{
     background-color: #3737377a;
     font-family: Arial, Helvetica, sans-serif;
 }
-.headline{
+.Container{
     position: absolute;
-    left: 50%;
-    top: 5%;
+    top: 16px;
+    right: 32px;
+    left: 32px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Links{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.Links:hover{
+    color: #3737377a;
+    text-decoration: underline;
+}
+@media (max-width: 640px) {
+    .navigation{
+        display: none;
+    }
+    .Container{
+        justify-content: center;
+    }
 }
