@@ -5,7 +5,6 @@ body{
 }
 .Container{
     position: absolute;
-<<<<<<< HEAD
     top: 16px;
     right: 32px;
     left: 32px;
@@ -23,6 +22,12 @@ body{
     color: #3737377a;
     text-decoration: underline;
 }
+.background{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
 @media (max-width: 640px) {
     .navigation{
         display: none;
@@ -30,8 +35,4 @@ body{
     .Container{
         justify-content: center;
     }
-=======
-    left: 50vw;
-    top: 5%;
->>>>>>> e4cfee8bc783b3747008c2447bee7f1ee9bd4b04
 }
