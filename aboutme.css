@@ -1,10 +1,11 @@
 body{
     margin: 0;
-    background-color: #3737377a;
+    background-color: #000000;
+    overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 .Container{
-    position: absolute;
+    position: fixed;
     top: 16px;
     right: 32px;
     left: 32px;
@@ -21,13 +22,94 @@ body{
 .Links:hover{
     color: #3737377a;
     text-decoration: underline;
+} 
+.übermich{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.background{
+.übermichText{
+    color: white;
+    font-size: 1000%;
+    font-family: "Ballet", cursive;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+}
+.erstesBild{
     height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    pointer-events: none;
+    width: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
 }
+
+.YoutubeBanner{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: inline-block;
+    font-size: 0;
+}
+.YoutubeBild{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: #00e2ff;
+    text-shadow: 
+        0 0 7px #0035f8,
+        0 0 10px #0035f8,
+        0 0 21px #0035f8,
+        0 0 42px #0401bd,
+        0 0 842px #0401bd,
+        0 0 92px #0401bd,
+        0 0 102px #0401bd,
+        0 0 151px #0401bd;
+    background-color: transparent;
+    padding: 33px, 33px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    font-size: 40px;
+    transition: 0.2s;
+}
+.youtube{
+    height: auto;
+    width: 100vw;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.ÜbermichDiv{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.Bild{
+    width: 33vw;
+    height: auto;
+    margin-right: 50px;
+}
+.Text{
+    color: red;
+}
+
+
+
+
+
+
 @media (max-width: 640px) {
     .navigation{
         display: none;
