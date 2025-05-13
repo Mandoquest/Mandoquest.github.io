@@ -1,0 +1,24 @@
+.Gallerie {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+
+.Gallerie figure {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    scroll-snap-align: center;
+}
+
+.Gallerie img {
+    height: 50vh;
+    width: auto;
+    display: block;
+    margin-bottom: 5px;
+}
