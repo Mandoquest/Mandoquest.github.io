@@ -57,6 +57,8 @@ body{
     font-size: 275%;
 }
 
+
+
 @media (max-width: 640px) {
     .navigation{
         display: none;
