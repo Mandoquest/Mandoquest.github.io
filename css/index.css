@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
+}
 .Links {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -32,12 +32,27 @@ body{
 .logo{
     pointer-events: none;
 }
+.LinksBox{
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    text-wrap: nowrap;
+    font-size: 50px;
+}
+.Menu-Balken{
+    display: none;
+}
+.Menu{
+    display: none;
+
+}
 .Flexbox{
     position: absolute;
     top: 40%;
     display: flex;
     flex-direction: column;
-    text-wrap: nonewrap;
+    text-wrap: nowrap;
 }
 .unterseiten{
     color: white;
@@ -64,6 +79,10 @@ body{
         display: none;
     }
     .Container{
-        justify-content: center;
+        justify-content: space-between;
+    }
+    .Menu-Balken{
+    display: block;
+    cursor: pointer;
     }
 }
