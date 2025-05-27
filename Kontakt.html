@@ -21,18 +21,23 @@
     </div>
     <br>
     <div class="Formular">
-        <label for="name">Name</label> <br>
-        <input type="text" id="name" name="name" placeholder="Mustermann"><br>
+        <form action="https://formsubmit.co/norwin@yandaal.de" method="POST">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Mustermann" required><br>
 
-        <label for="vorname">Vorname</label><br>
-        <input type="text" id="vorname" name="vorname" placeholder="Max"> <br>
+            <label for="vorname">Vorname</label><br>
+            <input type="text" id="vorname" name="vorname" placeholder="Max" required><br>
 
-        <label for="email">E-Mail</label> <br>
-        <input type="text" id="email" name="email" placeholder="ManxMustermann@beispiel.de"> <br>
+            <label for="email">E-Mail</label><br>
+            <input type="email" id="email" name="email" placeholder="max@beispiel.de" required><br>
 
+            <label for="Nachricht">Nachricht</label><br>
+            <textarea id="Nachricht" name="Nachricht" placeholder="Schreibe etwas" style="height: 20vh;" required></textarea><br>
 
-        <label for="Nachricht">Nachricht</label> <br>
-        <textarea id="Nachricht" name="Nachricht" placeholder="Schreibe etwas" style="height: 20vh;"></textarea> <br>
+            <input type="hidden" name="_next" value="https://yandaal.de/danke.html">
+
+            <button type="submit">Absenden</button>
+        </form>
     </div>
 </body>
 </html>

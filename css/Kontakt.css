@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    overflow: hidden;
     background-color: rgb(83, 83, 83);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,7 +33,7 @@ body{
 }
 .Kontakt{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15vw;
@@ -42,7 +41,7 @@ body{
 }
 .Formular{
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -0%);
     width: 50vw;
@@ -66,7 +65,7 @@ input[type=text], select, textarea {
 }
 
 
-input[type=submit] {
+button{
   background-color: #04AA6D;
   color: white;
   padding: 12px 20px;
@@ -78,6 +77,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
 
 
 @media (max-width: 640px) {

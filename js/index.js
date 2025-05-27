@@ -1,10 +1,16 @@
 function ZeigeMenu() {
-  const box = document.getElementById('Menu');
-  const flexbox = document.getElementById('Flexbox');
+  const menu = document.getElementById("Menu");
+  const flexbox = document.getElementById("Flexbox");
 
-  flexbox.style.display = (flexbox.style.display === 'none') ? 'flex' : 'none';
-  box.style.display = (box.style.display === 'block') ? 'none' : 'block';
-  box.style.width = (box.stylewidth === '100vw') ? '0' : '100vw';
-  box.style.height = (box.style.height === '100vh') ? '0' : '100vh';
-  box.style.zIndex = (box.style.zIndex === '999') ? '0' : '999';
+  const isOpen = menu.classList.contains("Menu-offen");
+
+  if (isOpen) {
+    // Menü schließen → Inhalt wieder zeigen
+    menu.classList.remove("Menu-offen");
+    flexbox.style.display = "flex";
+  } else {
+    // Menü öffnen → Inhalt ausblenden
+    menu.classList.add("Menu-offen");
+    flexbox.style.display = "none";
+  }
 }
