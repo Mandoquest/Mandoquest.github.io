@@ -5,25 +5,65 @@ body{
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
-.Container{
-    position: fixed;
-    top: 16px;
-    right: 32px;
-    left: 32px;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 999;
+.Container {
+  position: absolute;
+  top: 16px;
+  right: 32px;
+  z-index: 999;
+  left: 32px;
+  font-size: 24px;
+  display: flex;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
 }
-.Links{
-    color: white;
-    text-decoration: none;
-    transition: 0.2s;
+
+.LinksBox {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  font-size: 50px;
 }
-.Links:hover{
-    color: #3737377a;
-    text-decoration: underline;
+.Links {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.Links:hover {
+  text-decoration: underline;
+  color: #727272;
+}
+
+.logo {
+  pointer-events: none;
+}
+.Menu-Balken {
+  display: none;
+  width: 20%;
+}
+
+
+.Menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 0;
+}
+
+.Menu-offen {
+  opacity: 1;
+  visibility: visible;
+  z-index: 990;
 } 
 .übermich{
     position: absolute;
@@ -151,10 +191,14 @@ body{
 
 
 @media (max-width: 640px) {
-    .navigation{
-        display: none;
-    }
-    .Container{
-        justify-content: center;
-    }
+  .navigation {
+    display: none;
+  }
+  .Container {
+    justify-content: space-between;
+  }
+  .Menu-Balken {
+    display: block;
+    cursor: pointer;
+  }
 }

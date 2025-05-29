@@ -1,14 +1,10 @@
-body{
-    margin: 0;
-    background-color: rgb(83, 83, 83);
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #3737377a;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.background{
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    pointer-events: none;
-}
+
 .Container {
   position: absolute;
   top: 16px;
@@ -69,58 +65,42 @@ body{
   visibility: visible;
   z-index: 990;
 }
-.Kontakt{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 12vw;
-    color: white;
-}
-.Formular{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -0%);
-    width: 50vw;
-    height: 50vh;
-    font-size: 3vh;
-    color: white;
+
+
+.Danke h1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Zain", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
 }
 
-.input {
-  height: 40px;
-  border: none;
+.Danke p {
+  position: absolute;
+  font-size: 30px;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.button {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: black;
+  background-color: transparent;
   border-radius: 5px;
-}
-
-
-input[type=text], select, textarea {
-  width: 50vw; 
-  padding: 12px; 
-  border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 7px; 
-  resize: vertical 
-}
-
-
-button{
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  width: 200px;
+  height: 50px;
   cursor: pointer;
 }
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-
 
 @media (max-width: 640px) {
   .navigation {

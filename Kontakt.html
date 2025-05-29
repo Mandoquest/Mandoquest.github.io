@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/Kontakt.css">
+    <script defer src="js/Kontakt.js"></script>
 </head>
 <body>
     <div class="Container">
-        <img class="logo" src="img/anderes/Logo.png">
-    
+        <img class="Menu-Balken" src="img/anderes/icons8-menü-100.png" onclick="ZeigeMenu()" />
+        <img class="logo" src="img/anderes/Logo.png" />
+
         <div class="navigation">
-        <a class="Links" href="index.html"> Home</a>
-        <a class="Links" href="Impressum.html"> Impressum </a>
-        <a class="Links" href="Kontakt.html"> Kontakt </a>
+        <a class="Links" href="index.html">Home</a>
+        <a class="Links" href="Impressum.html">Impressum</a>
+        <a class="Links" href="Kontakt.html">Kontakt</a>
+        </div>
+    </div>
+    <div class="Menu Menu-geschlossen" id="Menu">
+        <div class="LinksBox">
+        <a class="Links" href="index.html">Home</a>
+        <a class="Links" href="Impressum.html">Impressum</a>
+        <a class="Links" href="Kontakt.html">Kontakt</a>
         </div>
     </div>
     <div class="Kontakt">
@@ -23,18 +32,18 @@
     <div class="Formular">
         <form action="https://formsubmit.co/norwin@yandaal.de" method="POST">
             <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" placeholder="Mustermann" required><br>
-
+            <input class="input" type="text" id="name" name="name" placeholder="Mustermann" required><br>
+            <br>
             <label for="vorname">Vorname</label><br>
-            <input type="text" id="vorname" name="vorname" placeholder="Max" required><br>
-
+            <input class="input" type="text" id="vorname" name="vorname" placeholder="Max" required><br>
+            <br>
             <label for="email">E-Mail</label><br>
-            <input type="email" id="email" name="email" placeholder="max@beispiel.de" required><br>
-
+            <input class="input" type="text" id="email" name="email" placeholder="max@mustermann.de" required><br>
+            <br>
             <label for="Nachricht">Nachricht</label><br>
             <textarea id="Nachricht" name="Nachricht" placeholder="Schreibe etwas" style="height: 20vh;" required></textarea><br>
-
-            <input type="hidden" name="_next" value="https://yandaal.de/danke.html">
+            <br>
+            <input type="hidden" name="_next" value="https://yandaal.de/">
 
             <button type="submit">Absenden</button>
         </form>
