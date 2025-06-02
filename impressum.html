@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Norwin Spelters<br />
-    Bohmter Straße 22<br />
-    49074 Osnabrück</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impressum</title>
+    <link rel="stylesheet" href="/css/impressum.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/mobile.js"></script>
+    <link rel="icon" type="image/png" href="img/anderes/Paragraph.png" />
+  </head>
+  <body>
+    <div class="Container">
+      <img
+        class="Menu-Balken"
+        src="img/anderes/icons8-menü-100.png"
+        onclick="ZeigeMenu()"
+      />
+      <img class="logo" src="img/anderes/Logo.png" />
 
-    <h2>Kontakt</h2>
-    <p>Telefon: 0123-4567890<br />
-    E-Mail: norwin@yandaal.de</p>
+      <div class="navigation">
+        <a class="Links" href="index.html">Home</a>
+        <a class="Links" href="Impressum.html">Impressum</a>
+        <a class="Links" href="Kontakt.html">Kontakt</a>
+        <a class="Links" href="Datenschutz.html">Datenschutzerklärung</a>
+      </div>
+    </div>
 
-    <h2>Verbraucher­streit­beilegung / Universal­schlichtungs­stelle</h2>
-    <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+    <div class="Menu Menu-geschlossen" id="Menu">
+      <div class="LinksBox">
+        <a class="Links" href="index.html">Home</a>
+        <a class="Links" href="impressum.html">Impressum</a>
+        <a class="Links" href="Kontakt.html">Kontakt</a>
+        <a class="Links" href="Datenschutz.html">Datenschutzerklärung</a>
+      </div>
+    </div>
 
-    <p>Quelle: <a href="https://www.e-recht24.de">e-recht24.de</a></p>
+    <h1 class="Impressum-Überschrift">Impressum</h1>
 
-</body>
+    <div class="Impressum">
+      <p>
+        Norwin Spelters<br />
+        Bohmter Straße 22<br />
+        49074 Osnabrück
+      </p>
+
+      <h2>Kontakt</h2>
+      <p>
+        Telefon: 0123-4567890<br />
+        E-Mail: norwin@yandaal.de
+      </p>
+
+      <h2>Verbraucher­streit­beilegung / Universal­schlichtungs­stelle</h2>
+      <p>
+        Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
+        vor einer Verbraucherschlichtungsstelle teilzunehmen.
+      </p>
+
+      <p>Quelle: <a href="https://www.e-recht24.de">e-recht24.de</a></p>
+    </div>
+  </body>
 </html>
