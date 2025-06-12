@@ -174,20 +174,30 @@ body {
   height: 50vh;
   width: auto;
   overflow-x: scroll;
-  scrollbar-width: none;
 }
 
-.Gallerie::-webkit-scrollbar {
-  display: none;
+.LieblingsspieleTitel{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Ballet", cursive;
+  font-size: 70px;
+  justify-content: center;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 .Lieblingsspiele {
+  color: white;
+  font-size: 70px;
+  justify-content: center;
+  white-space: nowrap;
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
   gap: 10px;
-  scrollbar-width: none;
-  padding: 10px;
+
 }
 
 .Lieblingsspiele figure {
@@ -206,7 +216,20 @@ body {
   display: block;
   margin-bottom: 10px;
 }
-
+.Fotografie {
+  color: white;
+  font-family: "Ballet", cursive;
+  font-size: 70px;
+  justify-content: center;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 10px;
+}
 
 
 
@@ -229,5 +252,9 @@ body {
   }
   .Bild {
     display: none;
+  }
+  .Lieblingsspiele {
+    font-size: 30px;
+    padding: 5px;
   }
 }
