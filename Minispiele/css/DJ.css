@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.Hit-Zone{
+    width: 100%;
+    height:  40vh;
+    background-color: rgb(94, 94, 94);
+    position: absolute;
+    bottom: 0;
+    font-size: 200%;
+}
+.Hit-Box1{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: red;
+}
+.Hit-Box2{
+    position: absolute;
+    left: 25%;
+    height: 100%;
+    width: 25%;
+    background-color: green;
+}
+.Hit-Box3{
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+}
+.Hit-Box4{
+    position: absolute;
+    left: 75%;
+    height: 100%;
+    width: 25%;
+    background-color: purple;
+}
+.fly-zone {
+    position : absolute;
+    top: 0;
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.fly-zone1 {
+    position : absolute;
+    top: 0;
+    height: 69vh;
+    width: 25%;
+    background-color: rgba(255, 0, 0, 0.226);
+}
+.fly-zone2 {
+    position : absolute;
+    top: 0;
+    height: 69vh;
+    width: 25%;
+    left: 25%;
+    background-color: rgba(0, 128, 0, 0.226);
+}
+.fly-zone3 {
+    position : absolute;
+    top: 0;
+    height: 69vh;
+    width: 25%;
+    left: 50%;
+    background-color: rgba(0, 0, 255, 0.226);
+}
+.fly-zone4 {
+    position : absolute;
+    top: 0;
+    height: 69vh;
+    width: 25%;
+    left: 75%;
+    background-color: rgba(128, 0, 128, 0.226);
+}
+.s {
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+}
+.d {
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+}
+.f {
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+}
+.g {
+    position: absolute;
+    top: 50%;
+    left: 87.5%;
+    transform: translate(-50%, -50%);
+}
+.score{
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    font-size: 300%;
+}
+.perfect-zone{
+    position: absolute;
+    height: 10vh;
+    top: 50%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.226);
+}
+.sscore{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    height: 10vh;
+    width: 20vh;
+    background-color: white;
+}
