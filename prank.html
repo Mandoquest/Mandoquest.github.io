@@ -9,20 +9,21 @@
 <body>
     <div class="container">
         <h1>
-            nochmal
+        Wer das liest ist doof
         </h1>
+        <div class="paragraph">
+            <p>wenn du runter scrollst kommst du zurück</p> 
+        </div>
 
     </div>
     <div class="button_container">
-        <a href="index.html">
-            <button class="button" type="button">Click Me!</button>
-        </a>
-    </div>
-    <div>
-        <audio autoplay loop hidden>
-            <source src="nevergonnagiveyouup.m4a" type="audio/mp4">
-            dein browser unterstützt kein rickroll
+        <audio id="rickroll" loop playsinline preload="auto">
+            <source src="nevergonnagiveyouup.m4a" type="audio/mpeg">
         </audio>
+
+        <button class="button" id="prankBtn">Weiter</button>
+        <script src="js/prank.js"></script>
+
     </div>
 </body>
 </html>
