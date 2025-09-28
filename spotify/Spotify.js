@@ -4,7 +4,7 @@ const topTracksEl = document.getElementById('top-tracks');
 const totalTimeEl = document.getElementById('total-time');
 
 const clientId = "120f278fd893495b892c96ea0ce653da";
-const redirectUri = "https://mandoquest.github.io";
+const redirectUri = "https://mandoquest.github.io/spotify/Spotify.html";
 const scopes = "user-top-read user-read-recently-played";
 
 loginBtn.addEventListener('click', () => {
