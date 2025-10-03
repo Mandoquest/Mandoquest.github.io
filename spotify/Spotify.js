@@ -8,7 +8,12 @@ const redirectUri = "https://mandoquest.github.io/spotify/Spotify.html";
 const scopes = "user-top-read user-read-recently-played";
 
 loginBtn.addEventListener('click', () => {
-  const authUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${encodeURIComponent(scopes)}`;
+  const authUrl = 
+  `https://accounts.spotify.com/authorize` +
+  `?client_id=${clientId}` +
+  `&response_type=code` +   // statt token
+  `&redirect_uri=${encodeURIComponent(redirectUri)}` +
+  `&scope=${encodeURIComponent(scopes)}`;
   window.location.href = authUrl;
 });
 
